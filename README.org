@@ -1,0 +1,18 @@
+* Shell-Toggle-Plus
+
+Shell toggle like guake for emacs.EShell/Shell supported
+
+* Useage
+#+begin_src emacs-lisp
+(require 'shell-toggle-plus)
+(setq shell-toggle-launch-shell 'eshell)
+#+end_src
+
+You can use key-binding with it
+
+|-----------------+--------------+-----------------|
+| Command         | shell-toggle | shell-toggle-cd |
+|-----------------+--------------+-----------------|
+| supported shell | shell        | eshell          |
+|-----------------+--------------+-----------------|
+
